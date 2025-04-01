@@ -1,0 +1,51 @@
+# CMake build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/*.cmake
+
+# Output directories
+/bin/
+/lib/
+
+/*.a
+/*.o
+/*.so
+/*.exe
+/*.out
+
+# IDE-specific files
+.idea/
+/.vscode/
+/.vscode/settings.json
+/.vs/
+/*.user
+/*.userosscache
+/*.suo
+/*.db
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# Generated files by IDEs or build systems
+*.depend
+*.d
+*.filelist
+*.ninja
+*.make
+
+# Coverage reports (e.g., from gcov)
+*.gcda*
